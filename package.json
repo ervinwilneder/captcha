@@ -1,0 +1,21 @@
+{
+  "name": "solve-captcha-demo",
+  "version": "1.0.0",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ervin Wilneder",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.9.3",
+    "argparse": "^2.0.1",
+    "dotenv": "^16.0.1",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "puppeteer-core": "^16.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8"
+  },
+  "description": ""
+}
